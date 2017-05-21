@@ -1,13 +1,20 @@
 {
   "repository": {
+    "name": "cg-starter",
     "type": "git",
-    "url": "https://github.com/zoerooney/Emi"
+    "main": "gulpfile.js"
   },
   "dependencies": {
     "gulp": "*",
-    "gulp-ruby-sass": "*",
+    "gulp-sass": "*",
+    "gulp-cache": "*",
+    "gulp-clean-css": "*",
+    "gulp-eslint": "*",
+    "gulp-image": "*",
+    "pump": "*",
+    "gulp-sourcemaps": "*",
     "gulp-autoprefixer": "*",
-    "gulp-minify-css": "*",
+    "gulp-uglify": "*",
     "gulp-livereload": "*"
   }
 }
